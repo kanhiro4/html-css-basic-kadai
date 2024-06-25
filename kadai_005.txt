@@ -1,0 +1,9 @@
+Step1
+PS C:\Users\hiroshi\kadai_005> git init
+Step2~3
+PS C:\Users\hiroshi\kadai_005> git add kadai_005.txt
+PS C:\Users\hiroshi\kadai_005> git commit -m "hello,World.txtを追加"
+PS C:\Users\hiroshi\kadai_005> git add kadai_005.txt
+PS C:\Users\hiroshi\kadai_005> git commit -m "日本語訳を追記"
+Step4
+PS C:\Users\hiroshi\kadai_005> git log --oneline
