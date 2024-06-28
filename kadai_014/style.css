@@ -1,0 +1,40 @@
+
+html{
+  font-size: 20px;
+}
+
+body {
+  font-family: "Arial", "Meiryo", sans-serif;
+    /* 中央揃え */
+  text-align: center;
+/* 色のクラスを設定 */
+  .text-pink {
+    color:rgb(255, 192, 203);
+  }
+  .text-skyblue {
+    color: skyblue;
+  }
+  /* 子要素への太字反映 */
+  #basic p {
+    font-weight: bold;
+  }
+}
+
+h1 {
+  /* google fontsを使用 */
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  /* 中央揃え */
+  text-align: center;
+  /* フォントサイズはルート要素の2倍 */
+  font-size=2em;
+   /* 文字間設定：文字の大きさの1.2倍 */
+  letter-spacing: 2.4em;
+  /* 影を付ける */
+  text-shadow: 10px 5px 3px black;
+  border-bottom: solid 3px rgb(115, 115, 114);
+
+}
+
