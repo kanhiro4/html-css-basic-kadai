@@ -29,9 +29,9 @@ h1 {
   /* 中央揃え */
   text-align: center;
   /* フォントサイズはルート要素の2倍 */
-  font-size=2em;
+  font-size=2rem;
    /* 文字間設定：文字の大きさの1.2倍 */
-  letter-spacing: 2.4em;
+  letter-spacing: 2.4rem;
   /* 影を付ける */
   text-shadow: 10px 5px 3px black;
   border-bottom: solid 3px rgb(115, 115, 114);
