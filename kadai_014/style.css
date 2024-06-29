@@ -26,14 +26,13 @@ h1 {
   /* google fontsを使用 */
   font-family: "Josefin Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
   font-style: normal;
   /* 中央揃え */
   text-align: center;
   /* フォントサイズはルート要素の2倍 */
   font-size: 2rem;
    /* 文字間設定：文字の大きさの1.2倍 */
-  letter-spacing: 2.4rem;
+  letter-spacing: 1.2em;
   /* 影を付ける */
   text-shadow: 10px 5px 3px black;
   border-bottom: solid 3px rgb(115, 115, 114);
