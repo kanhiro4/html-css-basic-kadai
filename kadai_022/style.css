@@ -1,0 +1,77 @@
+h1 {
+  margin: 0;
+  color: rgb(255, 255, 255);
+}
+p {
+  margin: 0;
+  font-size: 20px;
+}
+/* aは2つの疑似クラスを設定 */
+a {
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+}
+a:visited {
+  color: rgb(193, 234, 251);
+}
+a:hover {
+  color: rgb(245, 178, 168);
+}
+body {
+  margin: 0;
+}
+header {
+  margin-bottom: 20px;
+  background-color:  rgb(244, 79, 79);
+  text-align: center;
+}
+main {
+  margin: 10px;
+}
+/* parentはflexboxで均等な間価格で配置 */
+#parent {
+  display: flex;
+  justify-content: space-around;
+}
+/* 疑似クラスでP要素2つ目（class内3つ目の要素）の最初の一文字を水色に*/
+.contents {
+  border: solid 3px rgb(238, 204, 204);
+  flex-basis: 25%;
+  padding: 10px 15px;
+  margin: 20px 0px;
+  text-align: center;
+  p:nth-child(3)::first-letter{
+  color: rgb(97, 206, 249);
+  font-weight: bold;
+  }
+}
+.contents img {
+  margin: 10px 0px;
+  width: 70%;
+}
+h2 {
+  font-size: 25px;
+  border-bottom: dotted 3px rgb(236, 122, 122);
+}
+h2::before {
+  content:"●";
+  color: rgb(239, 111, 139);
+}
+
+footer {
+  background-color: rgb(244, 79, 79);
+  text-align: center;
+}
+
+/* レスポンシブデザイン用 */
+@media screen and (max-width: 768px) {
+  h2 {
+    font-size: 30px;
+  }
+  p {
+    font-size: 25px;
+  }
+  #parent {
+    display: block;
+  }
+   }
