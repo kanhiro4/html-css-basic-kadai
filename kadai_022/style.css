@@ -57,12 +57,10 @@ h2::before {
   content:"●";
   color: rgb(239, 111, 139);
 }
-
 footer {
   background-color: rgb(244, 79, 79);
   text-align: center;
 }
-
 /* レスポンシブデザイン用 */
 @media screen and (max-width: 768px) {
   h2 {

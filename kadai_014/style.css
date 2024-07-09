@@ -6,8 +6,7 @@ html{
 body {
   font-family: "Arial", "Meiryo", sans-serif;
     /* 中央揃え */
-  text-align: center;
-
+  text-align: center; 
 /* 色のクラスを設定 */
   .text-pink {
     color:rgb(255, 192, 203);
@@ -15,13 +14,11 @@ body {
   .text-skyblue {
     color: skyblue;
   }
-  
   /* 子要素への太字反映 */
   #basic p {
     font-weight: bold;
   }
 }
-
 h1 {
   /* google fontsを使用 */
   font-family: "Josefin Sans", sans-serif;
